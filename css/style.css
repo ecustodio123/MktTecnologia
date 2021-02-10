@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("../images/header.jpg") no-repeat center top;
+    background-repeat: repeat;
+    background-position: center;
+}
+
+h3,p, h6{
+    color: #fff !important;
+}
+
+.table th, .table td{
+    border-top: 0px !important;
+}
+
+.table td, .table th {
+    text-align: center;
+}
+
+.ok {
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: #1e6;
+    color: #fff;
+}
+
+.bad {
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: #a22;
+    color: #fff;
+}
+
+
+@media (max-width: 600px) {
+    .container-mb{
+        padding: 0 2rem;
+    }
+    .title {
+      text-align: left !important;
+    }
+    .subtitle{
+        display: none;
+    }
+    .subtitle-1{
+      text-align: left !important;
+
+    }
+    .table-lg{
+        display: none;
+    }
+  }
+
+@media (min-width: 600px) {
+    .paty{
+        display: none;
+    }
+  }
